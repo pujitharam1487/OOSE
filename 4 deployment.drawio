@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="z9Y2_VXkC7KnhzBRKUtg">
+    <mxGraphModel dx="2480" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-1" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Admin Workstation&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="205" x="-420" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-3" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="&lt;b&gt;Database Server&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="330" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-30" edge="1" parent="1" source="ao-HdAlhTyLarUPp1hLy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ao-HdAlhTyLarUPp1hLy-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(SQL queries)" vertex="1">
+          <mxGeometry height="30" width="90" x="180" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;artifact&amp;gt;&lt;div&gt;&lt;b&gt;Web browser&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-377.5" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-17" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="Application Server&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="310" width="235" x="-52.5" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;artifact&amp;gt;&lt;div&gt;LMS Application (WAR)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="150" x="-10" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;artifact&amp;gt;&lt;div&gt;Book Dashboard&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="-10" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;artifact&amp;gt;&lt;div&gt;Issue BOOK&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="-20" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;artifact&amp;gt;&lt;div&gt;My Profile&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="-10" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-24" edge="1" parent="1" source="ao-HdAlhTyLarUPp1hLy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.629;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" target="ao-HdAlhTyLarUPp1hLy-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;lt;artifact&amp;gt;&lt;div&gt;Library Database (SQL)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="349" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTPS" vertex="1">
+          <mxGeometry height="30" width="60" x="-180" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="request / response" vertex="1">
+          <mxGeometry height="30" width="105" x="-185" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-32" edge="1" parent="1" source="ao-HdAlhTyLarUPp1hLy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.283;entryY=0.972;entryDx=0;entryDy=0;entryPerimeter=0;" target="ao-HdAlhTyLarUPp1hLy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

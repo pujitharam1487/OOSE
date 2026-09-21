@@ -1,0 +1,39 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="z9Y2_VXkC7KnhzBRKUtg">
+    <mxGraphModel dx="1722" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-1" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Admin Workstation&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;Web Browser (LMS UI)&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="170" x="-340" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-6" edge="1" parent="1" source="ao-HdAlhTyLarUPp1hLy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-2" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="&lt;b&gt;Application Server&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;artifact&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;LMS Application (WAR)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;artifact&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Book Dashboard&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;artifact&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Issue Book&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;artifact&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;My Profile&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="180" x="-30" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-3" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="&lt;b&gt;Database Server&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;artifact&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Library Database (SQL)&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="234" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-5" edge="1" parent="1" source="ao-HdAlhTyLarUPp1hLy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.571;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;" target="ao-HdAlhTyLarUPp1hLy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTPS" vertex="1">
+          <mxGeometry height="30" width="60" x="-130" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(request/response)" vertex="1">
+          <mxGeometry height="30" width="110" x="-155" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JDBC" vertex="1">
+          <mxGeometry height="30" width="60" x="150" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ao-HdAlhTyLarUPp1hLy-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(SQL queries)" vertex="1">
+          <mxGeometry height="30" width="90" x="144" y="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
